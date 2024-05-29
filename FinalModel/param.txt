@@ -1,0 +1,113 @@
+** Freq - 2 classes **
+
+Best parameters for LogisticRegression: {'C': 100, 'solver': 'liblinear'}
+Best cross-validated accuracy for LogisticRegression: 0.791644204851752
+Best parameters for DecisionTreeClassifier: {'criterion': 'gini', 'max_depth': None, 'min_samples_split': 2}
+Best cross-validated accuracy for DecisionTreeClassifier: 0.8560916442048517
+Best parameters for RandomForestClassifier: {'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}
+Best cross-validated accuracy for RandomForestClassifier: 0.8854177897574125
+Best parameters for SVC: {'C': 100, 'gamma': 'scale', 'kernel': 'rbf'}
+Best cross-validated accuracy for SVC: 0.8134591194968553
+Best parameters for KNeighborsClassifier: {'metric': 'manhattan', 'n_neighbors': 3, 'weights': 'distance'}
+Best cross-validated accuracy for KNeighborsClassifier: 0.8844204851752023
+Best parameters for LinearDiscriminantAnalysis: {'solver': 'svd'}
+Best cross-validated accuracy for LinearDiscriminantAnalysis: 0.7651392632524707
+Best parameters for AdaBoostClassifier: {'learning_rate': 1, 'n_estimators': 100}
+Best cross-validated accuracy for AdaBoostClassifier: 0.8323180592991914
+Best parameters for GradientBoostingClassifier: {'learning_rate': 0.2, 'max_depth': 7, 'n_estimators': 200}
+Best cross-validated accuracy for GradientBoostingClassifier: 0.8835399820305481
+Test accuracy for LogisticRegression: 0.75
+Test accuracy for DecisionTreeClassifier: 0.8787878787878788
+Test accuracy for RandomForestClassifier: 0.9242424242424242
+Test accuracy for SVC: 0.7727272727272727
+Test accuracy for KNeighborsClassifier: 0.9166666666666666
+Test accuracy for GaussianNB: 0.7537878787878788
+Test accuracy for LinearDiscriminantAnalysis: 0.7424242424242424
+Test accuracy for AdaBoostClassifier: 0.8181818181818182
+Test accuracy for GradientBoostingClassifier: 0.928030303030303
+
+** Freq - 3 classes **
+
+Best parameters for LogisticRegression: {'C': 100, 'solver': 'liblinear'}
+Best cross-validated accuracy for LogisticRegression: 0.7168279432985315
+Best parameters for DecisionTreeClassifier: {'criterion': 'gini', 'max_depth': None, 'min_samples_split': 2}
+Best cross-validated accuracy for DecisionTreeClassifier: 0.8444104914693151
+Best parameters for RandomForestClassifier: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}
+Best cross-validated accuracy for RandomForestClassifier: 0.880226636108989
+Best parameters for SVC: {'C': 100, 'gamma': 'scale', 'kernel': 'rbf'}
+Best cross-validated accuracy for SVC: 0.7708556149732619
+Best parameters for KNeighborsClassifier: {'metric': 'euclidean', 'n_neighbors': 3, 'weights': 'distance'}
+Best cross-validated accuracy for KNeighborsClassifier: 0.8665011459129106
+Best parameters for LinearDiscriminantAnalysis: {'solver': 'svd'}
+Best cross-validated accuracy for LinearDiscriminantAnalysis: 0.7116373822256176
+Best parameters for AdaBoostClassifier: {'learning_rate': 1, 'n_estimators': 200}
+Best cross-validated accuracy for AdaBoostClassifier: 0.6992615227909346
+Best parameters for GradientBoostingClassifier: {'learning_rate': 0.2, 'max_depth': 7, 'n_estimators': 200}
+Best cross-validated accuracy for GradientBoostingClassifier: 0.873741617859265
+Test accuracy for LogisticRegression: 0.7890625
+Test accuracy for DecisionTreeClassifier: 0.8541666666666666
+Test accuracy for RandomForestClassifier: 0.9166666666666666
+Test accuracy for SVC: 0.8333333333333334
+Test accuracy for KNeighborsClassifier: 0.8854166666666666
+Test accuracy for GaussianNB: 0.6901041666666666
+Test accuracy for LinearDiscriminantAnalysis: 0.7630208333333334
+Test accuracy for AdaBoostClassifier: 0.7630208333333334
+Test accuracy for GradientBoostingClassifier: 0.9166666666666666
+
+** GLCM 2 - class ** 
+Best parameters for LogisticRegression: {'C': 100, 'solver': 'liblinear'}
+Best cross-validated accuracy for LogisticRegression: 0.8228437428506062
+Best parameters for DecisionTreeClassifier: {'criterion': 'entropy', 'max_depth': 20, 'min_samples_split': 2}
+Best cross-validated accuracy for DecisionTreeClassifier: 0.9124113475177305
+Best parameters for RandomForestClassifier: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+Best cross-validated accuracy for RandomForestClassifier: 0.9391672386181652
+Best parameters for SVC: {'C': 100, 'gamma': 'scale', 'kernel': 'linear'}
+Best cross-validated accuracy for SVC: 0.8463051933196064
+Best parameters for KNeighborsClassifier: {'metric': 'manhattan', 'n_neighbors': 5, 'weights': 'distance'}
+Best cross-validated accuracy for KNeighborsClassifier: 0.9136010066346374
+Best parameters for LinearDiscriminantAnalysis: {'solver': 'svd'}
+Best cross-validated accuracy for LinearDiscriminantAnalysis: 0.8345801876000914
+Best parameters for AdaBoostClassifier: {'learning_rate': 1, 'n_estimators': 200}
+Best cross-validated accuracy for AdaBoostClassifier: 0.8985586822237475
+Best parameters for GradientBoostingClassifier: {'learning_rate': 0.2, 'max_depth': 7, 'n_estimators': 200}
+Best cross-validated accuracy for GradientBoostingClassifier: 0.9412948981926335
+Test accuracy for LogisticRegression: 0.8468085106382979
+Test accuracy for DecisionTreeClassifier: 0.9106382978723404
+Test accuracy for RandomForestClassifier: 0.9404255319148936
+Test accuracy for SVC: 0.8553191489361702
+Test accuracy for KNeighborsClassifier: 0.8936170212765957
+Test accuracy for GaussianNB: 0.8170212765957446
+Test accuracy for LinearDiscriminantAnalysis: 0.8340425531914893
+Test accuracy for AdaBoostClassifier: 0.9106382978723404
+Test accuracy for GradientBoostingClassifier: 0.9404255319148936
+
+** GLCM 3 - class ** 
+
+Best parameters for LogisticRegression: {'C': 10, 'solver': 'liblinear'}
+Best cross-validated accuracy for LogisticRegression: 0.8072796352583586
+Best parameters for DecisionTreeClassifier: {'criterion': 'entropy', 'max_depth': 30, 'min_samples_split': 5}
+Best cross-validated accuracy for DecisionTreeClassifier: 0.9011246200607902
+Best parameters for RandomForestClassifier: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+Best cross-validated accuracy for RandomForestClassifier: 0.935288753799392
+Best parameters for SVC: {'C': 100, 'gamma': 'scale', 'kernel': 'linear'}
+Best cross-validated accuracy for SVC: 0.8279128672745694
+Best parameters for KNeighborsClassifier: {'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}
+Best cross-validated accuracy for KNeighborsClassifier: 0.8833890577507599
+Best parameters for LinearDiscriminantAnalysis: {'solver': 'svd'}
+Best cross-validated accuracy for LinearDiscriminantAnalysis: 0.8306838905775076
+Best parameters for AdaBoostClassifier: {'learning_rate': 0.01, 'n_estimators': 200}
+Best cross-validated accuracy for AdaBoostClassifier: 0.7801621073961499
+Best parameters for GradientBoostingClassifier: {'learning_rate': 0.2, 'max_depth': 5, 'n_estimators': 200}
+Best cross-validated accuracy for GradientBoostingClassifier: 0.9331509625126644
+Best parameters for XGBoostClassifier: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200, 'num_class': 3, 'objective': 'multi:softmax', 'subsample': 0.8}
+Best cross-validated accuracy for XGBoostClassifier: 0.9423961499493414
+Test accuracy for LogisticRegression: 0.8068181818181818
+Test accuracy for DecisionTreeClassifier: 0.8977272727272727
+Test accuracy for RandomForestClassifier: 0.9289772727272727
+Test accuracy for SVC: 0.8181818181818182
+Test accuracy for KNeighborsClassifier: 0.8721590909090909
+Test accuracy for GaussianNB: 0.6988636363636364
+Test accuracy for LinearDiscriminantAnalysis: 0.8267045454545454
+Test accuracy for AdaBoostClassifier: 0.7670454545454546
+Test accuracy for GradientBoostingClassifier: 0.9375
+Test accuracy for XGBoostClassifier: 0.9375
